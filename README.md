@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Remote Desktop for [MacOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
 - Access the **required** [installation files](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=sharing)
 - Enable IIS in Windows and subsequent features 
-- Download and the install **required** [installation files](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=sharing)
+- Download and the install the **required** [installation files](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=sharing)
 - Setup osTicket
 - Clean up your setup/permissions
 - Access your osTicket HelpDesk Login
