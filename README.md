@@ -3,35 +3,35 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+# osTicket - Prerequisites and Installation
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-<h2>Environments and Technologies Used</h2>
+## Environments and Technologies Used
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop 
 - Internet Information Services (IIS)
 - [osTicket Installation Documentation](https://docs.osticket.com/en/latest/Getting%20Started/Installation.html) 
 
-<h2>Operating Systems Used </h2>
+## Operating Systems Used
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+## List of Prerequisites
 
 - Create a virtual machine in Azure and access it using Remote Desktop
 
   - Microsoft Remote Desktop for [MacOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
 - Access the **required** [installation files](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=sharing)
--  In Windows, enable IIS and subsequent features 
-- Download and the install the required installation files
+- In Windows, enable IIS and subsequent features 
+- Download and install the required installation files
 - Setup osTicket
 - Clean up your setup/permissions
 - Access your osTicket helpdesk login
 - Browse your osTicket end-user page
 
-<h2>Installation Steps</h2>
-<h3>Create a virtual machine in Azure and access it using Remote Desktop </h3>
+## Installation Steps
+### Create a virtual machine in Azure and access it using Remote Desktop
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -56,7 +56,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<h3> Access the required installation files </h3>
+### Access the required installation files
 <p>
 <img width="505" alt="Screenshot 2023-07-20 at 16 28 36" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/7c5a3d5c-a66d-4bf8-949f-5f6aa19a187e">
 <br />
@@ -73,7 +73,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<h3>Download and the install the required installation files</h3>
+### Download and the install the required installation files
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -82,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<h3>Setup osTicket</h3>
+### Setup osTicket
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -91,7 +91,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<h3>Access your osTicket HelpDesk Login</h3>
+### Access your osTicket HelpDesk Login
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -100,7 +100,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<h3>Clean up your setup/permissions</h3>
+### Clean up your setup/permissions
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -109,7 +109,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<h3>Access your osTicket helpdesk login</h3>
+### Access your osTicket helpdesk login
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -118,7 +118,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<h3>Browse your osTicket end-user page</h3>
+### Browse your osTicket end-user page
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -127,5 +127,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<h2>osTicket - Prerequisites and Installation Complete!👏🏾</h2>
+## osTicket - Prerequisites and Installation Complete!👏🏾
 <p>Come across errors you can't figure out? Message me on Discord @deedeet15 👾</p>
