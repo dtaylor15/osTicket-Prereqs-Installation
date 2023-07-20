@@ -128,3 +128,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <h2>osTicket - Prerequisites and Installation Complete!👏🏾</h2>
+<p>Come across errors you can't figure out? Message me on Discord @deedeet15 👾</p>
