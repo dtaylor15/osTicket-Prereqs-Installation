@@ -21,7 +21,7 @@ Come across errors you can't figure out? Message me on Discord @deedeet15 👾<b
 
 ## List of Prerequisites
 
-1. [Create a virtual machine in Azure and access it using Remote Desktop]()
+1. [Create a virtual machine in Azure and access it using Remote Desktop](https://github.com/dtaylor15/osTicket-Prereqs-Installation#create-a-virtual-machine-in-azure-and-access-it-using-remote-desktop)
 
     - Microsoft Remote Desktop for [MacOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
 2. [Access the required](https://github.com/dtaylor15/osTicket-Prereqs-Installation/edit/main/README.md#access-the-required-installation-files) [**installation files**](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=sharing)
