@@ -4,7 +4,9 @@
 </p>
 
 # osTicket - Prerequisites and Installation
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.
+
+Come across errors you can't figure out? Message me on Discord @deedeet15 👾<br />
 
 ## Environments and Technologies Used
 
@@ -19,16 +21,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ## List of Prerequisites
 
-- Create a virtual machine in Azure and access it using Remote Desktop
+1. [Create a virtual machine in Azure and access it using Remote Desktop](https://github.com/dtaylor15/osTicket-Prereqs-Installation/edit/main/README.md#create-a-virtual-machine-in-azure-and-access-it-using-remote-desktop)
 
-  - Microsoft Remote Desktop for [MacOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
-- Access the **required** [installation files](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=sharing)
-- In Windows, enable IIS and subsequent features 
-- Download and install the required installation files
-- Setup osTicket
-- Clean up your setup/permissions
-- Access your osTicket helpdesk login
-- Browse your osTicket end-user page
+    - Microsoft Remote Desktop for [MacOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
+2. [Access the required](https://github.com/dtaylor15/osTicket-Prereqs-Installation/edit/main/README.md#access-the-required-installation-files) [**installation files**](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=sharing)
+3. [In Windows, enable IIS and subsequent features](https://github.com/dtaylor15/osTicket-Prereqs-Installation/edit/main/README.md#in-windows-enable-iis-and-subsequent-features) 
+4. [Download and install the required installation files](https://github.com/dtaylor15/osTicket-Prereqs-Installation/edit/main/README.md#download-and-the-install-the-required-installation-files)
+5. [Setup osTicket](https://github.com/dtaylor15/osTicket-Prereqs-Installation/edit/main/README.md#setup-osticket)
+6. [Clean up your setup/permissions](https://github.com/dtaylor15/osTicket-Prereqs-Installation/edit/main/README.md#clean-up-your-setuppermissions)
+7. [Access your osTicket helpdesk login](https://github.com/dtaylor15/osTicket-Prereqs-Installation/edit/main/README.md#access-your-osticket-helpdesk-login)
+8. [Browse your osTicket end-user page](https://github.com/dtaylor15/osTicket-Prereqs-Installation/edit/main/README.md#browse-your-osticket-end-user-page)
 
 ## Installation Steps
 ### Create a virtual machine in Azure and access it using Remote Desktop
