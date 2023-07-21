@@ -64,17 +64,35 @@ Copy VM-osTicket's public IP address and paste it in Remote Desktop Connection (
 <br />
 </p>
 
-For convenience, [open the installation files](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=drive_link) in a separate tab or window.  
+Copy and paste [this link](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=drive_link)  within your Windows VM for easy access to the required instalation files
 <br />
-<h3>Enable IIS and subsequent features in Windows VM</h3>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+### Enable IIS and subsequent features in Windows VM
+<p><img width="683" alt="Screenshot 2023-07-21 at 11 36 10" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/80491660-de23-4166-b131-893a1dcbd7cd">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Find IIS: Control Panel -> Programs and Features -> Turn Windows features on and off
 </p>
 <br />
 
+<br />
+<p> <img width="983" alt="Screenshot 2023-07-21 at 11 51 43" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/a7dfc3a3-0346-4b06-9211-91969bfbb111">
+</p>
+
+<p>In the Windows Features settings enable: Internet Information Services -> [▪️]Web Management Tools -> [▪️]IIS Management Console -> [✔] IIS Management Console
+   
+Enable CGI and Common HTTPS features: [▪️]World Wide Web Services -> [▪️]Application Development Features -> [✔] CGI -> [▪️]Common HTTP Features
+ </p>
+ 
+<br />
+
+https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/5b498b8b-833a-4cdf-9b53-fe6f16a606da
+
+<p>Verify IIS functionality with loopback address: Type 127.0.0.1 in Edge browser, the IIS welcome page will populate. </p>
+<br />
+
+    
 ### Download and the install the required installation files
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
