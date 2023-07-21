@@ -35,10 +35,13 @@ Come across errors you can't figure out? Message me on Discord @deedeet15 👾<b
 ## Installation Steps
 ### Create a virtual machine in Azure and access it using Remote Desktop
 <p>
-image
+
+
+https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/82c34051-02dc-44cd-b6da-41fce79d06cb
+
 </p>
 <p>
-text
+Name your VM "VM-osTicket" for best organizational practices. The region you choose is where your VM's physical reasources are located. Create a VM with a Windows 10 image and 4vCPUs for optimal proccessing speed. Set a usermae and password you will remember, this is how you will log onto the desktop. Creating a new VM in azure will automatically create a vnet (your VM's network) and a resource group (where your VM will be stored in Azure). Ensure RDP port 3389 is enabled, this is how you will access your VM's desktop. Make no changes on the Disk tab. On the Network tab observe your vnet and IP address. Ensure that the IP and NIC will delete when your VM is deleted. This prevents unwanted storage charges in Azure. Make no changes on the Management, Monitoring, and Advanced tabs. Review and create your VM. Wait for Deployment to finish. 
 </p>
 
 > **Note**
@@ -47,18 +50,11 @@ text
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="782" alt="remote in" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/a1736836-486b-4b11-8654-60345ca9dac9">
+    
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Copy VM-osTicket's public IP address and paste it in Remote Desktop Connection (Windows) or Microsoft Remote Desktop (MacOS). Give it a "friendly name" and log in with the username and password you configured. If using a Windows PC, your log in screen may look different. The functions are still the same. The VM's desktop will populate after a successful login. 
 </p>
 <br />
 
