@@ -29,7 +29,7 @@ Come across errors you can't figure out? Message me on Discord @deedeet15 👾<b
 4. [Download and install the required installation files](https://github.com/dtaylor15/osTicket-Prereqs-Installation#download-and-the-install-the-required-installation-files)
 5. [Setup osTicket](https://github.com/dtaylor15/osTicket-Prereqs-Installation#setup-osticket)
 6. [Clean up your setup/permissions](https://github.com/dtaylor15/osTicket-Prereqs-Installation#clean-up-your-setuppermissions)
-7. [Access your osTicket helpdesk admin login &  nd-user page]
+7. [Access your osTicket helpdesk admin login and end-user page](https://github.com/dtaylor15/osTicket-Prereqs-Installation/blob/main/README.md#access-your-osticket-admin-helpdesk-login--end-user-page)
 ## Installation Steps
 ### Create a virtual machine in Azure and access it using Remote Desktop
 <p>
@@ -118,7 +118,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-### Access your osTicket admin helpdesk login & end-user page
+### Access your osTicket admin helpdesk login and end-user page
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
