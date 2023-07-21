@@ -118,8 +118,22 @@ https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/fbcb
 
 #### Enable PHP extensions
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/6c35aa76-de1a-4a45-accd-92600fa9bb3c
-<p>After launching osTicket, notice some some extentions are disabled. The required extension are; PHP 
-</p>
+<p>After launching osTicket, notice that some extensions are disabled. The required extensions are PHP IMAP, Intl, and Zend OPcache. 
+    
+Enable extensions in IIS Manager: VM-osTicket -> sites -> default website -> osTicket -> double click PHP Manager -> enable and disable an extension -> enable: php_imap.dll, php_intl.dll, php_opcache.dll -> refresh the osTicket site, observe the changes. </p>
+
+#### Rename: ost-sampleconfig.php
+https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/ba208a15-d350-4699-ac9e-aa3999a941bd
+<p>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php  To: C:\inetpub\wwwroot\osTicket\include\ost-config.php. (erase "sample"). Arrive to the file by clicking the relevant folders (like in the walk through) or copy and paste the path name into file explorer</p>
+
+#### Assign Permissions: ost-config.php
+https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/042fb3d9-4a48-4b46-a621-5090a116f54d
+<p> Observe the file path to access C:\inetpub\wwwroot\osTicket\include\ost-config.php.ost-config.php. Right click: ost-config.php -> properties -> security -> advanced -> disable inheritance -> remove all -> add -> select principal -> type: everyone -> check names -> OK -> full control -> OK -> apply -> OK
+</p>  
+
+
+
+
 
 
 
