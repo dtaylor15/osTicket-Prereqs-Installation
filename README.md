@@ -32,6 +32,8 @@ Come across errors you can't figure out? Message me on Discord @deedeet15 👾<b
 7. [Access your osTicket helpdesk admin login and end-user page](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-your-osticket-admin-helpdesk-login-and-end-user-page)
 ## Installation Steps
 ### Create a virtual machine in Azure and access it using Remote Desktop
+> **Note:**
+> Using a virtual machine to host osTicket preserves resources on your personal machine. It also keeps it safe. 
 <p>
 
 
@@ -41,9 +43,6 @@ https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/82c3
 <p>
 Name your VM "VM-osTicket" for best organizational practices. The region you choose is where your VM's physical reasources are located. Create a VM with a Windows 10 image and 4vCPUs for optimal proccessing speed. Set a usermae and password you will remember, this is how you will log onto the desktop. Creating a new VM in azure will automatically create a vnet (your VM's network) and a resource group (where your VM will be stored in Azure). Ensure RDP port 3389 is enabled, this is how you will access your VM's desktop. Make no changes on the Disk tab. On the Network tab observe your vnet and IP address. Ensure that the IP and NIC will delete when your VM is deleted. This prevents unwanted storage charges in Azure. Make no changes on the Management, Monitoring, and Advanced tabs. Review and create your VM. Wait for Deployment to finish. 
 </p>
-
-> **Note**
-> Using a virtual machine to host osTicket preserves resources on your personal machine.
 
 <br />
 
@@ -92,6 +91,11 @@ https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/5b49
 
     
 ### Download and the install the required installation files
+>**Note:**
+>This is the longest step, so each part is broken down for your convenience.
+
+>**Warning:**
+>Some of these installation files are out of date, however they are still functional (and free). Because of this, you may come across a stop message; "This file type might be dangerous". Download the files anyway. The isolated VM hosted in Microsoft Azure keeps your personal machine safe.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
