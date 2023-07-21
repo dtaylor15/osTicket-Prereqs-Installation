@@ -24,7 +24,7 @@ Come across errors you can't figure out? Message me on Discord @deedeet15 👾<b
 1. [Create a virtual machine in Azure and access it using Remote Desktop](https://github.com/dtaylor15/osTicket-Prereqs-Installation#create-a-virtual-machine-in-azure-and-access-it-using-remote-desktop)
 
     - Microsoft Remote Desktop for [MacOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
-2. [Access the required](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-the-required-installation-files) [**installation files**](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=sharing)
+2. [Access the required installation files](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-the-required-installation-files) 
 3. [In Windows, enable IIS and subsequent features](https://github.com/dtaylor15/osTicket-Prereqs-Installation#in-windows-enable-iis-and-subsequent-features) 
 4. [Download and install the required installation files](https://github.com/dtaylor15/osTicket-Prereqs-Installation#download-and-the-install-the-required-installation-files)
 5. [Setup osTicket](https://github.com/dtaylor15/osTicket-Prereqs-Installation#setup-osticket)
@@ -64,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 </p>
 
-For convience, open the installation [files](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=drive_link) in seperate a tab or window.  
+For convenience, [open the installation files](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=drive_link) in a separate tab or window.  
 <br />
 <h3>In Windows, enable IIS and subsequent features</h3>
 <p>
