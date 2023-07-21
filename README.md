@@ -79,7 +79,7 @@ Find IIS: Control Panel -> Programs and Features -> Turn Windows features on and
 
 <p>In the Windows Features settings enable: [▪️]Internet Information Services -> [▪️]Web Management Tools -> [✔] IIS Management Console
    
-Enable CGI and Common HTTPS features: [▪️]World Wide Web Services -> [▪️]Application Development Features -> [✔] CGI -> [▪️]Common HTTP Features
+Enable CGI and Common HTTP features: [▪️]World Wide Web Services -> [▪️]Application Development Features -> [✔] CGI -> [▪️]Common HTTP Features
  </p>
  
 <br />
