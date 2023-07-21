@@ -91,7 +91,7 @@ https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/5b49
 
 #### Create the directory C:\PHP
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/1831cfc1-1c34-4aa3-a4f2-9761b01b1439
-<p> This PC -> Windows (C:) drive -> New Folder -> type: PHP </p> 
+<p> This PC -> Windows (C:) drive -> New Folder -> type "PHP" </p> 
 
 #### From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/92286ab1-c6e0-46a3-8b16-c2224a6001ec
@@ -124,11 +124,11 @@ Enable extensions in IIS Manager: VM-osTicket -> sites -> default website -> osT
 
 #### Rename: ost-sampleconfig.php
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/ba208a15-d350-4699-ac9e-aa3999a941bd
-<p>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php  To: C:\inetpub\wwwroot\osTicket\include\ost-config.php. (erase "sample"). Arrive to the file by clicking the relevant folders (like in the walk through) or copy and paste the path name into file explorer</p>
+<p>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php  To: C:\inetpub\wwwroot\osTicket\include\ost-config.php. (erase "sample"). Arrive to the file by clicking the relevant folders (like in the walk-through) or copy and paste the path name into file explorer</p>
 
 #### Assign Permissions: ost-config.php
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/042fb3d9-4a48-4b46-a621-5090a116f54d
-<p> Observe the file path to access C:\inetpub\wwwroot\osTicket\include\ost-config.php.ost-config.php. Assign permissions: right click: ost-config.php -> properties -> security -> advanced -> disable inheritance -> remove all -> add -> select principal -> type: everyone -> check names -> OK -> full control -> OK -> apply -> OK
+<p> Observe the file path to access C:\inetpub\wwwroot\osTicket\include\ost-config.php.ost-config.php. Assign permissions: right click ost-config.php -> properties -> security -> advanced -> disable inheritance -> remove all -> add -> select principal -> type "everyone" -> check names -> OK -> full control -> OK -> apply -> OK
 </p>  
 
 
