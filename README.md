@@ -91,9 +91,40 @@ https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/5b49
 
 #### Create the directory C:\PHP
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/1831cfc1-1c34-4aa3-a4f2-9761b01b1439
-<p> Path: This PC -> Windows (C:) drive -> New Folder -> type: PHP </p> 
+<p> This PC -> Windows (C:) drive -> New Folder -> type: PHP </p> 
 
 #### From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/92286ab1-c6e0-46a3-8b16-c2224a6001ec
+<p>Downloads -> right click PHP 7.3.8 -> extract all -> browse to C:\PHP -> select folder -> extract  </p>
+
+#### From the Installation Files, download and install VC_redist.x86.exe.
+<img width="706" alt="VC redist" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/0bfe4a17-a228-4963-9f41-004a4f645931">
+
+#### From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/3f15c657-62a2-483f-90ca-ad5e8615d2f3
+<p>Typical Setup -> launch Configuration Wizard (after install) -> install as Windows service -> standard Configuration -> modify security settings ->  set a password you will remember -> execute and finish installation </p>
+
+#### Run IIS as an Admin & Register PHP from within IIS
+https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/fbcbd092-fc5d-427a-b658-1fc50faa7fcb
+<p> Search IIS -> run as administrator -> PHP manager -> register new PHP version -> provide a path to the php executable file (...) -> C:\php\php-7.3.8-nts-Win32-VC15-x86\php.cgi -> open -> OK</p>
+
+#### Reload IIS (open IIS and restart the server)
+<img width="204" alt="reload IIS" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/feb407ff-ecf3-44cb-9f38-958a330aad3a">
+<p>You can also click stop and then start</p>
+
+#### Launch osTicket in Microsoft Edge 
+<img width="396" alt="Launch osT" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/d6571a0b-781e-4652-85f2-f39e9556bf62">
+<p> VM-osTicket -> sites -> default website -> osTicket -> On the right, click “Browse *:80”</p>
+
+#### Enable PHP extensions
+https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/6c35aa76-de1a-4a45-accd-92600fa9bb3c
+<p>After launching osTicket, notice some some extentions are disabled. The required extension are; PHP 
+</p>
+
+
+
+
+
 
 <br />
 
