@@ -29,7 +29,7 @@ Come across errors you can't figure out? Message me on Discord @deedeet15 👾<b
 4. [Download and install the required installation files](https://github.com/dtaylor15/osTicket-Prereqs-Installation#download-and-the-install-the-required-installation-files)
 5. [Setup osTicket](https://github.com/dtaylor15/osTicket-Prereqs-Installation#setup-osticket)
 6. [Clean up your setup/permissions](https://github.com/dtaylor15/osTicket-Prereqs-Installation#clean-up-your-setuppermissions)
-7. [Access your osTicket helpdesk login](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-your-osticket-helpdesk-login-1)
+7. [Access your osTicket helpdesk login](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-your-osticket-helpdesk-login)
 8. [Browse your osTicket end-user page](https://github.com/dtaylor15/osTicket-Prereqs-Installation#browse-your-osticket-end-user-page)
 
 ## Installation Steps
