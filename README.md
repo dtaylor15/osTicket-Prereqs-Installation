@@ -80,7 +80,7 @@ Find IIS: Control Panel -> Programs and Features -> Turn Windows features on and
 <p> <img width="983" alt="Screenshot 2023-07-21 at 11 51 43" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/a7dfc3a3-0346-4b06-9211-91969bfbb111">
 </p>
 
-<p>In the Windows Features settings enable: [▪️]Internet Information Services -> [▪️]Web Management Tools -> [▪️]IIS Management Console -> [✔] IIS Management Console
+<p>In the Windows Features settings enable: [▪️]Internet Information Services -> [▪️]Web Management Tools -> [✔] IIS Management Console
    
 Enable CGI and Common HTTPS features: [▪️]World Wide Web Services -> [▪️]Application Development Features -> [✔] CGI -> [▪️]Common HTTP Features
  </p>
