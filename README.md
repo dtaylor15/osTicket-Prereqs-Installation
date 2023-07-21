@@ -29,9 +29,7 @@ Come across errors you can't figure out? Message me on Discord @deedeet15 👾<b
 4. [Download and install the required installation files](https://github.com/dtaylor15/osTicket-Prereqs-Installation#download-and-the-install-the-required-installation-files)
 5. [Setup osTicket](https://github.com/dtaylor15/osTicket-Prereqs-Installation#setup-osticket)
 6. [Clean up your setup/permissions](https://github.com/dtaylor15/osTicket-Prereqs-Installation#clean-up-your-setuppermissions)
-7. [Access your osTicket helpdesk login](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-your-osticket-helpdesk-login)
-8. [Browse your osTicket end-user page](https://github.com/dtaylor15/osTicket-Prereqs-Installation#browse-your-osticket-end-user-page)
-
+7. [Access your osTicket helpdesk admin login &  nd-user page]
 ## Installation Steps
 ### Create a virtual machine in Azure and access it using Remote Desktop
 <p>
@@ -120,7 +118,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-### Access your osTicket helpdesk login
+### Access your osTicket admin helpdesk login & end-user page
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -129,14 +127,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-### Browse your osTicket end-user page
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-## osTicket - Prerequisites and Installation Complete!👏🏾
+### osTicket - Prerequisites and Installation Complete!👏🏾
 <p>Come across errors you can't figure out? Message me on Discord @deedeet15 👾</p>
