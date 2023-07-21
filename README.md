@@ -124,11 +124,15 @@ Enable extensions in IIS Manager: VM-osTicket -> sites -> default website -> osT
 
 #### Rename: ost-sampleconfig.php
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/ba208a15-d350-4699-ac9e-aa3999a941bd
-<p>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php  To: C:\inetpub\wwwroot\osTicket\include\ost-config.php. (erase "sample"). Arrive to the file by clicking the relevant folders (like in the walk-through) or copy and paste the path name into file explorer</p>
+<p>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php  To: C:\inetpub\wwwroot\osTicket\include\ost-config.php. (erase "sample"). 
+    
+Arrive at the file by clicking the relevant folders (like in the walk-through) or copy and paste the path name into file explorer</p>
 
 #### Assign Permissions: ost-config.php
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/042fb3d9-4a48-4b46-a621-5090a116f54d
-<p> Observe the file path to access C:\inetpub\wwwroot\osTicket\include\ost-config.php.ost-config.php. Assign permissions: right click ost-config.php -> properties -> security -> advanced -> disable inheritance -> remove all -> add -> select principal -> type "everyone" -> check names -> OK -> full control -> OK -> apply -> OK
+<p> Observe the file path to access C:\inetpub\wwwroot\osTicket\include\ost-config.php.ost-config.php. 
+    
+Assign permissions: right click ost-config.php -> properties -> security -> advanced -> disable inheritance -> remove all -> add -> select principal -> type "everyone" -> check names -> OK -> full control -> OK -> apply -> OK
 </p>  
 
 
