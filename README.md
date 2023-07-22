@@ -57,7 +57,7 @@ Copy and paste [this link](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiU
 ### Enable IIS and subsequent features in Windows VM
 <img width="683" alt="Screenshot 2023-07-21 at 11 36 10" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/80491660-de23-4166-b131-893a1dcbd7cd">
 <p>
-Find IIS: Control Panel -> Programs and Features -> Turn Windows features on and off
+Find IIS: Control Panel -> Programs and Features -> Turn Windows features on or off
 </p>
 <br />
 
@@ -91,22 +91,22 @@ https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/5b49
 
 #### Create the directory C:\PHP
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/1831cfc1-1c34-4aa3-a4f2-9761b01b1439
-<p> This PC -> Windows (C:) drive -> New Folder -> type "PHP" </p> 
+<p> This PC -> Windows (C:) Drive -> New Folder -> type "PHP" </p> 
 
 #### From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/92286ab1-c6e0-46a3-8b16-c2224a6001ec
-<p>Downloads -> right click PHP 7.3.8 -> extract all -> browse to C:\PHP -> select folder -> extract  </p>
+<p>Downloads -> Right click PHP 7.3.8 -> Extract all -> Browse to C:\PHP -> Select folder -> Extract  </p>
 
 #### From the Installation Files, download and install VC_redist.x86.exe.
 <img width="706" alt="VC redist" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/0bfe4a17-a228-4963-9f41-004a4f645931">
 
 #### From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/3f15c657-62a2-483f-90ca-ad5e8615d2f3
-<p>Typical Setup -> launch Configuration Wizard (after install) -> install as Windows service -> standard Configuration -> modify security settings ->  set a password you will remember -> execute and finish installation </p>
+<p>Typical Setup -> Launch Configuration Wizard (after install) -> Install as Windows Service -> Standard Configuration -> Modify Security Settings ->  Set a password you will remember -> Execute and finish installation </p>
 
 #### Run IIS as an Admin & Register PHP from within IIS
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/fbcbd092-fc5d-427a-b658-1fc50faa7fcb
-<p> Search IIS -> run as administrator -> PHP manager -> register new PHP version -> provide a path to the php executable file (...) -> C:\php\php-7.3.8-nts-Win32-VC15-x86\php.cgi -> open -> OK</p>
+<p> Search IIS -> Run as administrator -> PHP manager -> Register new PHP version -> Provide a path to the php executable file (...) -> C:\php\php-7.3.8-nts-Win32-VC15-x86\php.cgi -> Open -> OK</p>
 
 #### Reload IIS (open IIS and restart the server)
 <img width="204" alt="reload IIS" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/feb407ff-ecf3-44cb-9f38-958a330aad3a">
@@ -114,17 +114,20 @@ https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/fbcb
 
 #### Launch osTicket in Microsoft Edge 
 <img width="396" alt="Launch osT" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/d6571a0b-781e-4652-85f2-f39e9556bf62">
-<p> VM-osTicket -> sites -> default website -> osTicket -> On the right, click “Browse *:80”</p>
+<p> VM-osTicket -> Sites -> Default Website -> osTicket -> On the right, click “Browse *:80”. The osTicket installation page will populate in the Edge browser.</p>
+
+> **Note:**
+> If you receive an error in Edge, check to see if you properly registered PHP from within IIS's PHP manager.  
 
 #### Enable PHP extensions
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/6c35aa76-de1a-4a45-accd-92600fa9bb3c
 <p>After launching osTicket, notice that some extensions are disabled. The required extensions are PHP IMAP, Intl, and Zend OPcache. 
     
-Enable extensions in IIS Manager: VM-osTicket -> sites -> default website -> osTicket -> double click PHP Manager -> enable and disable an extension -> enable: php_imap.dll, php_intl.dll, php_opcache.dll -> refresh the osTicket site, observe the changes. </p>
+Enable extensions in IIS Manager: VM-osTicket -> Sites -> Default Website -> osTicket -> Double click PHP Manager -> Enable and disable an extension -> Enable: php_imap.dll, php_intl.dll, php_opcache.dll -> Refresh the osTicket site, Observe the changes. </p>
 
 #### Rename: ost-sampleconfig.php
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/ba208a15-d350-4699-ac9e-aa3999a941bd
-<p>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php  To: C:\inetpub\wwwroot\osTicket\include\ost-config.php. (erase "sample"). 
+<p>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php ➡️ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php. (delete "sample"). 
     
 Arrive at the file by clicking the relevant folders (like in the walk-through) or copy and paste the path name into file explorer</p>
 
@@ -132,7 +135,7 @@ Arrive at the file by clicking the relevant folders (like in the walk-through) o
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/042fb3d9-4a48-4b46-a621-5090a116f54d
 <p> Observe the file path to access C:\inetpub\wwwroot\osTicket\include\ost-config.php.ost-config.php. 
     
-Assign permissions: right click ost-config.php -> properties -> security -> advanced -> disable inheritance -> remove all -> add -> select principal -> type "everyone" -> check names -> OK -> full control -> OK -> apply -> OK
+Assign permissions: Right click ost-config.php -> Properties -> Security -> Advanced -> Disable inheritance -> Remove all -> Add -> Select principal -> type "everyone" -> Check names -> OK -> [✔️]Full control -> OK -> Apply -> OK
 </p>  
 
 
