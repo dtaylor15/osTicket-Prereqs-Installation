@@ -27,7 +27,7 @@ Come across errors you can't figure out? Message me on Discord @deedeet15 👾<b
 2. [Access the required installation files](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-the-required-installation-files) 
 3. [Enable IIS and subsequent features in Windows VM](https://github.com/dtaylor15/osTicket-Prereqs-Installation#in-windows-enable-iis-and-subsequent-features) 
 4. [Download and install the required installation files](https://github.com/dtaylor15/osTicket-Prereqs-Installation#download-and-the-install-the-required-installation-files)
-5. [Setup osTicket](https://github.com/dtaylor15/osTicket-Prereqs-Installation#setup-osticket)
+5. [Setup osTicket Database](https://github.com/dtaylor15/osTicket-Prereqs-Installation#setup-osticket)
 6. [Clean up your setup/permissions](https://github.com/dtaylor15/osTicket-Prereqs-Installation#clean-up-your-setuppermissions)
 7. [Access your osTicket helpdesk admin login and end-user page](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-your-osticket-admin-helpdesk-login-and-end-user-page)
 ## Installation Steps
@@ -50,22 +50,22 @@ Copy VM-osTicket's public IP address and paste it in Remote Desktop Connection (
 ### Access the required installation files
 <img width="505" alt="Screenshot 2023-07-20 at 16 28 36" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/7c5a3d5c-a66d-4bf8-949f-5f6aa19a187e">
 
-Copy and paste [this link](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=drive_link)  within your Windows VM for easy access to the required instalation files
+Copy and paste [this link](https://drive.google.com/drive/folders/1Jc9E6JWnnyLiUse49tfqYC4zGCkVRwSW?usp=drive_link)  within your Windows VM for easy access to the required instalation files.
 <br />
 
 
 ### Enable IIS and subsequent features in Windows VM
 <img width="683" alt="Screenshot 2023-07-21 at 11 36 10" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/80491660-de23-4166-b131-893a1dcbd7cd">
 <p>
-Find IIS: Control Panel -> Programs and Features -> Turn Windows features on or off
+Find IIS: Control Panel -> Programs and Features -> Turn Windows features on or off.
 </p>
 <br />
 
  <img width="983" alt="Screenshot 2023-07-21 at 11 51 43" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/a7dfc3a3-0346-4b06-9211-91969bfbb111">
 
-<p>In the Windows Features settings enable: [▪️]Internet Information Services -> [▪️]Web Management Tools -> [✔] IIS Management Console
+<p>In the Windows Features settings enable: [▪️]Internet Information Services -> [▪️]Web Management Tools -> [✔] IIS Management Console.
    
-Enable CGI and Common HTTP features: [▪️]World Wide Web Services -> [▪️]Application Development Features -> [✔] CGI -> [▪️]Common HTTP Features
+Enable CGI and Common HTTP features: [▪️]World Wide Web Services -> [▪️]Application Development Features -> [✔] CGI -> [▪️]Common HTTP Features.
  </p>
  
 <br />
@@ -91,26 +91,40 @@ https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/5b49
 
 #### Create the directory C:\PHP
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/1831cfc1-1c34-4aa3-a4f2-9761b01b1439
-<p> This PC -> Windows (C:) Drive -> New Folder -> type "PHP" </p> 
+<p> This PC -> Windows (C:) Drive -> New Folder -> type "PHP". </p> 
 
 #### From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+
+<img width="886" alt="Screenshot 2023-07-21 at 12 25 15" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/62dab415-03df-454e-861b-284a8b072e7f">
+
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/92286ab1-c6e0-46a3-8b16-c2224a6001ec
-<p>Downloads -> Right click PHP 7.3.8 -> Extract all -> Browse to C:\PHP -> Select folder -> Extract  </p>
+<p>Downloads -> Right click PHP 7.3.8 -> Extract all -> Browse to C:\PHP -> Select folder -> Extract.  </p>
 
 #### From the Installation Files, download and install VC_redist.x86.exe.
 <img width="706" alt="VC redist" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/0bfe4a17-a228-4963-9f41-004a4f645931">
 
 #### From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+<img width="848" alt="MySQL" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/7443fd10-b770-475a-be0a-3436c9cc9074">
+
+
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/3f15c657-62a2-483f-90ca-ad5e8615d2f3
-<p>Typical Setup -> Launch Configuration Wizard (after install) -> Install as Windows Service -> Standard Configuration -> Modify Security Settings ->  Set a password you will remember -> Execute and finish installation </p>
+<p>Typical Setup -> Launch Configuration Wizard (after install) -> Install as Windows Service -> Standard Configuration -> Modify Security Settings ->  Set a password you will remember -> Execute and finish installation. </p>
 
 #### Run IIS as an Admin & Register PHP from within IIS
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/fbcbd092-fc5d-427a-b658-1fc50faa7fcb
-<p> Search IIS -> Run as administrator -> PHP manager -> Register new PHP version -> Provide a path to the php executable file (...) -> C:\php\php-7.3.8-nts-Win32-VC15-x86\php.cgi -> Open -> OK</p>
+<p> Search IIS -> Run as administrator -> PHP manager -> Register new PHP version -> Provide a path to the php executable file (...) -> C:\php\php-7.3.8-nts-Win32-VC15-x86\php.cgi -> Open -> OK.</p>
 
 #### Reload IIS (open IIS and restart the server)
 <img width="204" alt="reload IIS" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/feb407ff-ecf3-44cb-9f38-958a330aad3a">
-<p>You can also click stop and then start</p>
+<p>You can also click stop and then start.</p>
+
+#### From the installation files, Install osTicket v1.15.8
+<img width="688" alt="downlaod osT" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/886f8748-6552-4d5b-9133-aa74dc3e7ecf">
+<p>The osTicket zip does not have an installation manager like the previous files. Access it from the Downloads section in the File Explorer.</p>
+
+#### Copy, extract, and rename the "Upload" folder within osTicket zip
+https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/4d5096ff-4161-45b0-b07a-272742b81c93
+<p>Double click osTicket in Downloads -> Right click "upload" folder and copy -> Paste the "upload" folder in c:\inetpub\wwwroot -> After extraction, rename “upload” to “osTicket” within c:\inetpub\wwwroot.</p>
 
 #### Launch osTicket in Microsoft Edge 
 <img width="396" alt="Launch osT" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/d6571a0b-781e-4652-85f2-f39e9556bf62">
@@ -123,58 +137,52 @@ https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/fbcb
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/6c35aa76-de1a-4a45-accd-92600fa9bb3c
 <p>After launching osTicket, notice that some extensions are disabled. The required extensions are PHP IMAP, Intl, and Zend OPcache. 
     
-Enable extensions in IIS Manager: VM-osTicket -> Sites -> Default Website -> osTicket -> Double click PHP Manager -> Enable and disable an extension -> Enable: php_imap.dll, php_intl.dll, php_opcache.dll -> Refresh the osTicket site, Observe the changes. </p>
+Enable extensions in IIS Manager: VM-osTicket -> Sites -> Default Website -> osTicket -> Double click PHP Manager -> Enable and disable an extension -> Enable: php_imap.dll, php_intl.dll, php_opcache.dll -> Refresh the osTicket site, observe the changes. </p>
 
 #### Rename: ost-sampleconfig.php
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/ba208a15-d350-4699-ac9e-aa3999a941bd
 <p>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php ➡️ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php. (delete "sample"). 
     
-Arrive at the file by clicking the relevant folders (like in the walk-through) or copy and paste the path name into file explorer</p>
+Arrive at the file by clicking the relevant folders (like in the walk-through) or copy and paste the path name into file explorer.</p>
 
 #### Assign Permissions: ost-config.php
 https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/042fb3d9-4a48-4b46-a621-5090a116f54d
 <p> Observe the file path to access C:\inetpub\wwwroot\osTicket\include\ost-config.php.ost-config.php. 
     
-Assign permissions: Right click ost-config.php -> Properties -> Security -> Advanced -> Disable inheritance -> Remove all -> Add -> Select principal -> type "everyone" -> Check names -> OK -> [✔️]Full control -> OK -> Apply -> OK
+Assign permissions: Right click ost-config.php -> Properties -> Security -> Advanced -> Disable inheritance -> Remove all -> Add -> Select principal -> type "everyone" -> Check names -> OK -> [✔️]Full control -> OK -> Apply -> OK.
 </p>  
 
+#### Setup the system settings and admin users on osTicket webpage
+<img width="535" alt="sysset:admin osTicket" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/eb222462-2bfd-4652-98a0-92bd7857dd5f">
+<p>In the browser, complete the first two sections of osTicket Basic Installation. The Default Email receives email from end-users. The Admin User portion is how you will log into the helpdesk.</p>
 
+#### From the Installation Files, download HeidiSQL. Install and begin a new session
+<img width="903" alt="HeidiSQL" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/a9f49948-4b92-4212-8ff6-0ddfb3ff95f6">
 
+> **Note:**
+> Heidi SQL may download as a word document. If so, open the document and click the link to download the file 
 
+https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/831961e7-4af3-4806-9c50-bfd985eb8427
+<p> Accept the agreement and let the installation manager guide you. 
 
-
-
-
-
+After installation, the session manager will automatically populate: Click "➕New -> Right click to remane the new session "osTicket" -> observe that the MySQL database username is "root" -> Set a password you will remember. This database information is required to finish configuring osTicket Basic Installation. </p>
 
 <br />
 
-### Setup osTicket
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-### Clean up your setup/permissions
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+### Setup osTicket Database  
+<img width="556" alt="osT dadtabase" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/694b9346-10e9-4cf9-a67d-55ea61374590">
+<p> Return to osTicket's Basic Installation page in the browser. The MySQL database is "osTicket". The MySQL username is "root". Use the password you configured in HeidiSQL. Click: Install Now. </p>
 <br />
 
 ### Access your osTicket admin helpdesk login and end-user page
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<img width="838" alt="access ost admin:user" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/8e183ae3-2d2a-49a6-a0d5-ec81a2011dd7">
+<p>Verify that your admin login works.</p>
+<br />
+
+### Clean up your setup/permissions
+<img width="537" alt="cleanup ost" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/0d1c8405-ee72-4b36-9e1d-3c1fface2823">
+<p>Delete: C:\inetpub\wwwroot\osTicket\setup. 
+Set Permissions to Read Only: C:\inetpub\wwwroot\osTicket\include\ost-config.php</p>
 <br />
 
 ### osTicket - Prerequisites and Installation Complete!👏🏾
-<p>Come across errors you can't figure out? Message me on Discord @deedeet15 👾</p>
