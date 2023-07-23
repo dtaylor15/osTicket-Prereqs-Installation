@@ -17,7 +17,9 @@ Come across errors you can't figure out? Message me on Discord @deedeet15 👾<b
 
 ## Operating Systems Used
 
-- Windows 10</b> (21H2)
+- Windows 10 (21H2)
+- MacOS Ventura 13.0.1 (Apple M1 Chip)
+</b>
 
 ## List of Prerequisites
 
