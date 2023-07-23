@@ -25,11 +25,11 @@ Come across errors you can't figure out? Message me on Discord @deedeet15 👾<b
 
     - Microsoft Remote Desktop for [MacOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
 2. [Access the required installation files](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-the-required-installation-files) 
-3. [Enable IIS and subsequent features in Windows VM](https://github.com/dtaylor15/osTicket-Prereqs-Installation#in-windows-enable-iis-and-subsequent-features) 
+3. [Enable IIS and subsequent features in Windows VM](https://github.com/dtaylor15/osTicket-Prereqs-Installation#enable-iis-and-subsequent-features-in-windows-vm)
 4. [Download and install the required installation files](https://github.com/dtaylor15/osTicket-Prereqs-Installation#download-and-the-install-the-required-installation-files)
 5. [Setup osTicket](https://github.com/dtaylor15/osTicket-Prereqs-Installation#setup-osticket)
-6. [Access your osTicket helpdesk admin login and end-user page](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-your-osticket-admin-helpdesk-login-and-end-user-page)
-7. [Clean up your setup and permissions](https://github.com/dtaylor15/osTicket-Prereqs-Installation#clean-up-your-setuppermissions)
+6. [Access your osTicket helpdesk admin login and end-user page](https://github.com/dtaylor15/osTicket-Prereqs-Installation#access-your-helpdesk-admin-login-and-end-user-page)
+7. [Clean up your setup and permissions](https://github.com/dtaylor15/osTicket-Prereqs-Installation#clean-up-your-setup-and-permissions)
 
 ## Installation Steps
 
@@ -170,7 +170,7 @@ After installation, the session manager will automatically populate: Click "➕N
 
 ### Setup osTicket 
 <img width="535" alt="sysset:admin osTicket" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/eb222462-2bfd-4652-98a0-92bd7857dd5f">
-<p>In the browser, complete the System Settings and Admin Users sections of osTicket Basic Installation. The Default Email receives email from end-users. The Admin User portion is how you will log into the helpdesk.</p>
+<p>In the browser, complete the System Settings and Admin User sections of osTicket Basic Installation. The Default Email receives email from end-users. The Admin User portion is how you will log into the helpdesk.</p>
 
 <img width="556" alt="osT dadtabase" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/694b9346-10e9-4cf9-a67d-55ea61374590">
 <p> Scroll to the Database section. The MySQL database is "osTicket". The MySQL username is "root". Use the password you configured in HeidiSQL. Click: Install Now. </p>
