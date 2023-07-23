@@ -186,6 +186,7 @@ After installation, the session manager will automatically populate: Click "➕N
 ### Clean Up Your Setup and Permissions
 <img width="537" alt="cleanup ost" src="https://github.com/dtaylor15/osTicket-Prereqs-Installation/assets/101889571/0d1c8405-ee72-4b36-9e1d-3c1fface2823">
 <p>Delete: C:\inetpub\wwwroot\osTicket\setup. 
+
 Set Permissions to Read Only: C:\inetpub\wwwroot\osTicket\include\ost-config.php</p>
 <br />
 
