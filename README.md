@@ -190,3 +190,4 @@ Set Permissions to Read Only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <br />
 
 ### osTicket - Prerequisites and Installation Complete!👏🏾
+Continue to [system administration configurations.](https://github.com/dtaylor15/osTicket-SystemAdmin-Config)
